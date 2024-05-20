@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jacuruntu</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="pet-container">
+    <img id="pet-img" src="Imgs/idle.png" alt="Pet Image">
+    <div id="status-bars">
+      <div id="food-bar">
+        <span id="food-status">100</span>
+      </div>
+      <div id="fun-bar">
+        <span id="fun-status">100</span>
+      </div>
+      <div id="sleep-bar">
+        <span id="sleep-status">100</span>
+      </div>
+      <div id="name-container">
+        <label for="pet-name">Qual o nome do seu pet?:</label>
+        <input type="text" id="pet-name" name="pet-name">
+        <button id="submit-name">Enviar</button>
+      </div>
+    </div>
+  </div>
+  <div id="buttons-container">
+  <button id="feed">alimentar </button>
+  <button id="play">brincar </button>
+  <button id="sleep">dormir</button>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html> 
